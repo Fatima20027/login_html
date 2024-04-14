@@ -26,6 +26,7 @@ body {
     font-size: 60px;
     color: rgb(230, 225, 235);
     text-align: center;
+    font-style: arial;
 }
 
 .wrapper .input_box{
@@ -92,7 +93,10 @@ body {
     height: 45px;
     border-radius: 40px;
     background-color: aliceblue;
-
+    font-weight: 600;
+    cursor: pointer;
+    color: #333333;
+    
     padding: 20px;
     font-size: 20px;
     outline: none;
