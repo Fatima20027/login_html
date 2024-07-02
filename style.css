@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("5b19ebd084fd4e47d8de8440b60ad4b7.jpg");
+    background: url("download.jpeg");
     background-size: cover;
     background-position: center;
 
@@ -16,7 +16,7 @@ body {
     color: aliceblue;
     padding: 30px 40px;
     border-radius: 20px;
-    border: 2px solid rgb(241, 186, 241);
+    border: 2px solid rgb(228, 186, 241);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgb rgb(39, 38, 38);
 
@@ -24,9 +24,11 @@ body {
 
 .wrapper h1{
     font-size: 60px;
-    color: rgb(243, 211, 241);
+    color: rgb(214, 201, 238);
     text-align: center;
     font-style: arial;
+    cursor: default;
+    user-select: none;
 }
 
 .wrapper .input_box{
@@ -43,7 +45,7 @@ body {
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgb(254, 252, 255);
+    border: 2px solid rgb(253, 252, 255);
     border-radius: 40px;
     padding: 20px 2px 20px 20px;
     color: aliceblue;
@@ -51,7 +53,7 @@ body {
 }
 
 .input_box input::placeholder {
-    color: #ede8f0;
+    color: #e8dbf0;
 }
 
 
@@ -71,12 +73,13 @@ body {
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-    margin: -15px 0 15px;
+    margin: -15px 0 25px;
 }
 
 .remember-forgetcode label input{
     color: aliceblue;
     margin-right: 3px;
+    cursor: pointer;
 }
 
 .remember-forgetcode a{
@@ -90,17 +93,18 @@ body {
 
 .wrapper .btn{
     width: 100%;
-    height: 45px;
+    height: 50px;
     border-radius: 40px;
     background-color: aliceblue;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
-    color: #333333;
-    
-    padding: 20px;
-    font-size: 20px;
+    color: #0a072e;
+    font-size: 22px;
     outline: none;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper .register-link{
@@ -113,8 +117,21 @@ body {
     color: aliceblue;
     text-decoration: none;
     font-weight: 600;
+    
 }
 
 .register-link a:hover{
     text-decoration: underline;
+    cursor: pointer;
+}
+
+.register-link {
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.btn:hover {
+    color: rgb(80, 10, 128);
+    background: rgb(224, 221, 221)
 }
